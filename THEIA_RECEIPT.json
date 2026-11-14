@@ -1,0 +1,20 @@
+{
+  "customizedFields": {
+    "customFaqAnswer": "PDFSplit processes files entirely in your browser, never uploading or storing any data.",
+    "customFaqQuestion": "How does PDFSplit ensure data privacy?",
+    "eyebrow": "ZERO-UPLOAD \u00b7 COMPLETE PRIVACY",
+    "heroSubtitle": "Split, merge, and reorder PDFs 100% in your browser with no data tracking.",
+    "inputPlaceholder": "Enter PDF URL or upload file",
+    "primaryCta": "GET STARTED"
+  },
+  "customizedFieldsSha256": "8f24670ab286c20422bde603bbc272dd469f9dc7a7766051a605f53ad139cac4",
+  "inferenceMs": 5328,
+  "modelId": "qwen2.5-coder:7b",
+  "paidApiCalls": 0,
+  "promptSha256": "81affe767e72e5066f1ffd69d5aa67f3ae7132cf9f46e639bf78812820057a5b",
+  "runId": "dk01-pdfsplit-1794691877",
+  "schema": "othrys.cortex.dk01-theia-receipt.v1",
+  "titanId": "theia",
+  "tokensIn": 334,
+  "tokensOut": 109
+}

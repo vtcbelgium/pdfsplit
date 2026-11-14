@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#0e1626"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d9ae62"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="100" cy="110" r="16" fill="url(#glow)"/>
+  <text x="130" y="118" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">OTHRYS SOVEREIGN FLEET</text>
+  <rect x="940" y="86" width="160" height="42" rx="21" fill="rgba(217, 174, 98, 0.14)" stroke="#d9ae62" stroke-width="1.5"/>
+  <text x="1020" y="113" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#d9ae62" text-anchor="middle">SOVEREIGN</text>
+  <text x="100" y="258" font-family="Georgia, serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="-1">PDFSplit</text>
+  <text x="100" y="328" font-family="system-ui, sans-serif" font-size="30" font-weight="600" fill="#d9ae62">Split, Merge &amp; Reorder PDF Pages in Browser</text>
+  <text x="100" y="378" font-family="system-ui, sans-serif" font-size="22" font-weight="400" fill="#94a3b8">100% client-side memory via pdf-lib &amp; ISO 32000-1 page trees</text>
+  <line x1="100" y1="440" x2="1100" y2="440" stroke="#1e293b" stroke-width="2"/>
+  <text x="100" y="500" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#38bdf8">Zero Server Uploads &#x2022; Zero Cookies &#x2022; Strict CSP</text>
+  <text x="1100" y="500" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#64748b" text-anchor="end">https://pdfsplit.othrys.be</text>
+</svg>

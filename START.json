@@ -1,0 +1,18 @@
+{
+  "authority": "NONE",
+  "externalActionsAuthorized": false,
+  "intent": {
+    "description": "Split, merge, extract, and reorder PDF pages 100% in browser memory with zero tracking.",
+    "mode": "LOCAL_STAGE2_CUSTOMIZED_SCRATCH_ONLY",
+    "modelId": "qwen2.5-coder:7b",
+    "runId": "dk01-pdfsplit-1794691877",
+    "schema": "othrys.cortex.dk01-customizer.v1",
+    "slug": "pdfsplit",
+    "task": "Extract page ranges and reorder PDF pages offline with complete data privacy.",
+    "titanId": "theia",
+    "title": "PDFSplit - Zero-Upload Client-Side PDF Splitter & Merger"
+  },
+  "intentSha256": "504cd17d658fe63365d304ecb6f987529ca68441021cbbb4471379b7bdb5df5f",
+  "paidApiCalls": 0,
+  "startedAt": "2026-11-14T21:31:17+00:00"
+}
