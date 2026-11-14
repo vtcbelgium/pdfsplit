@@ -1,0 +1,57 @@
+{
+  "pipeline": "devkit1-onepager.v1",
+  "slug": "pdfsplit",
+  "title": "PDFSplit",
+  "live_url": "https://pdfsplit.othrys.be/",
+  "github_repo": "https://github.com/vtcbelgium/pdfsplit",
+  "theia_run_id": "dk01-pdfsplit-1794691877",
+  "receipts": {
+    "optimize": {
+      "status": "OPTIMIZED",
+      "passed_gates": [
+        "gate_header_sovereign_signature",
+        "gate_typography_hierarchy",
+        "gate_accessibility_dialogs",
+        "gate_zero_tracking_security",
+        "gate_design_tokens"
+      ],
+      "theia_unslop_passed": true
+    },
+    "seo_people_first_barrier": {
+      "titan": "prometheus",
+      "policy": "google-search-central-who-how-why/1",
+      "check_seo_barrier_verdict": "PASS",
+      "seo_authorship_barrier_verdict": "PASS",
+      "finding_count": 0
+    },
+    "verify_build": {
+      "typecheck_passed": true,
+      "tests_passed": true,
+      "test_files": 2,
+      "tests_count": 15,
+      "build_succeeded": true
+    },
+    "cloudflare_deploy": {
+      "status": "COMPLETED",
+      "mode": "workers_assets",
+      "worker_name": "pdfsplit",
+      "version_id": "18f92f36-c1c8-4d79-a777-99dbb6c3a7cb",
+      "workers_dev_url": "https://pdfsplit.othrys-systems.workers.dev",
+      "custom_domain": "pdfsplit.othrys.be"
+    },
+    "edge_verification": {
+      "root_status": 200,
+      "robots_txt_status": 200,
+      "sitemap_xml_status": 200,
+      "og_image_svg_status": 200,
+      "indexnow_key_status": 200
+    },
+    "indexnow": {
+      "site": "pdfsplit",
+      "urlCount": 1,
+      "httpStatus": 202,
+      "at": "2026-11-14T23:21:31.922164+00:00"
+    }
+  },
+  "success": true
+}

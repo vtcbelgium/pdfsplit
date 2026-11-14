@@ -1,4 +1,4 @@
-name: Deploy PDFSplit - Zero-Upload Client-Side PDF Splitter & Merger to Cloudflare Pages
+name: Deploy PDFSplit to Cloudflare Edge
 
 on:
   push:
@@ -36,13 +36,13 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Workers Static Assets
         if: env.CF_API_TOKEN != ''
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 8731d11f0dd513e9305c584846d8ceef
-          command: pages deploy dist --project-name=pdfsplit --branch=main
+          command: deploy
 
       - name: Skip deploy (no Cloudflare token)
         if: env.CF_API_TOKEN == ''
