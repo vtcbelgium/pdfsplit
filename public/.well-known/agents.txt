@@ -1,0 +1,7 @@
+Name: PDFSplit
+URL: https://pdfsplit.othrys.be/
+Description: Split PDF page ranges, extract individual pages, merge multiple PDFs, and rotate or reorder pages 100% in browser memory with zero cloud uploads.
+LLMs-Txt: https://pdfsplit.othrys.be/llms.txt
+Sitemap: https://pdfsplit.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
