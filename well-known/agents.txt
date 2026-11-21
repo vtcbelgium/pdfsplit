@@ -1,0 +1,7 @@
+Name: PDFSplit
+URL: https://pdfsplit.othrys.be/
+Description: Zero-upload client-side PDF splitter and merger tool that processes documents entirely in the browser without any server-side uploads or tracking.
+LLMs-Txt: https://pdfsplit.othrys.be/llms.txt
+Sitemap: https://pdfsplit.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
